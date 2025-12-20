@@ -65,6 +65,18 @@ body {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo-text {
     font-size: 1.5rem;
     font-weight: 700;
@@ -785,6 +797,14 @@ section[id] {
 }
 
 @media (max-width: 768px) {
+    .logo-img {
+        height: 32px;
+    }
+    
+    .logo-text {
+        font-size: 1.25rem;
+    }
+
     .nav-menu {
         position: fixed;
         top: 70px;
